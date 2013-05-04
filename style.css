@@ -1,0 +1,205 @@
+/*
+Theme Name: MH
+Theme URI: http://www.matthewheston.com/
+Description: COM530 MH Theme
+Author: Matthew Heston
+Author URI: http://www.matthewheston.com
+Version: 1.0
+Tags: ugly
+
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+
+ */
+@import url(http://fonts.googleapis.com/css?family=Amethysta);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+
+/* YUI Reset */
+/*
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+ */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+/* end YUI Reset */
+
+/* Vetical Grid */
+body
+{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h1
+{
+  font-size: 36px;
+  line-height: 60px;
+}
+
+#site-description
+{
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+p,
+ul,
+ol,
+pre,
+{
+  margin-bottom: 30px;
+}
+/* end Vertical Grid */
+
+/* Base Styles */
+html, body
+{
+  background-color: #eee;
+  color: #111;
+  font-family: "Amethysta", serif;
+}
+
+a
+{
+  color: #000;
+}
+
+code
+{
+  font-family: "PT Mono", monospace;
+  font-size: 80%;
+}
+
+.gist
+{
+  font-size: 80%;
+}
+
+article h2
+{
+  text-decoration: none;
+  float: left;
+  font-weight: bold;
+}
+
+.published-on
+{
+  float: right;
+  font-style: italic;
+}
+
+article p
+{
+  clear: both;
+}
+
+pre
+{
+  border-style: dotted;
+  border-width: thin;
+}
+
+body
+{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+header
+{
+  background-color: #ddd;
+  font-family: "Dosis", sans-serif;
+}
+
+header h1 a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: #010101;
+}
+
+header h1
+{
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#site-description
+{
+  text-align: center;
+}
+
+nav
+{
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+nav li
+{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: thin;
+  border-style: dashed;
+}
+
+nav li:first-child {
+  border-top: thin;
+  border-style: dashed;
+}
+
+nav a
+{
+  text-decoration:none
+}
+
+nav a:hover
+{
+  text-decoration: underline;
+}
+
+footer
+{
+  font-size: 80%;
+}
+/* end Base Styles */
+
+@media (min-width: 800px)
+{
+  header h1
+  {
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  #site-description
+  {
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  nav
+  {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  #main
+  {
+    float: left;
+    width: 60%;
+  }
+
+  footer
+  {
+    width: 30%;
+    clear: both;
+  }
+
+}
+
